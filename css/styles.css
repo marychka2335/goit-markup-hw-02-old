@@ -246,9 +246,13 @@ address {
   letter-spacing: 0.03em;
 }
 
-a[href*="goo.gl"] {
+.address-list .location {
   color: var(--main-white-color);
 }
+
+/* a[href*="goo.gl"] {
+  color: var(--main-white-color);
+} */
 
 /* a[href*="goo.gl"]:hover,
 a[href*="goo.gl"]:focus {
