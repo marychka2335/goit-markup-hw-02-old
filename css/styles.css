@@ -262,8 +262,3 @@ a[href*="goo.gl"]:focus {
 .address-style {
   color: rgba(255, 255, 255, 0.6);
 }
-
-/* .address-style:hover,
-.address-style:focus {
-  color: var(--active-color);
-} */
