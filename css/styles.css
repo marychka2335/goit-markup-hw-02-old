@@ -13,6 +13,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
+  background-color: var(--main-white-color);
 }
 
 a {
@@ -45,10 +46,6 @@ a {
 }
 
 /* header styles */
-.header-style {
-  background: var(--main-white-color);
-}
-
 /* logo comment */
 .logo {
   font-family: var(--second-font);
@@ -128,22 +125,18 @@ h1 {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--main-white-color);
-  background-color: var(--active-color);
+  background-color: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
 .button:focus {
+  color: var(--main-white-color);
   background: var(--active-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* specialty styles */
-.specialty,
-.business {
-  background-color: var(--main-background);
-}
-
 .specialty .title {
   font-weight: 700;
   font-size: 14px;
@@ -188,9 +181,6 @@ h1 {
 }
 
 /* projects-styles */
-.projects-filter {
-  background-color: var(--main-background);
-}
 
 .filter-btn {
   font-weight: 500;
@@ -217,10 +207,10 @@ h1 {
   line-height: 1.875;
 }
 
-.projects .item {
+/* .projects .item {
   background: var(--main-white-color);
   border: 1px solid #EEEEEE;
-}
+} */
 
 /* footer styles */
 .footer-style {
